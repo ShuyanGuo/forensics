@@ -7,6 +7,16 @@ Part 1
 
 Image B is different from both image A and C. We found this out by using the diff command on the images. With this information we used steghide to determine what was hidden within this file. Without the password we had to brute force the file so we wrote a simple bash script to use a wordlist with steghide. After running this with a simple wordlist we found that the password was "disney". We used this password to extract a file named "runme". This file would not run so we used "chmod +x runme" to make it an executable. We ran it and it said to use my first name as an argument, so I then ran it again with my name and got the output "Kenny, you are doing a heckuvajob up to this point!".  
 
+Bash script used:
+
+#!/bin/bash
+
+while read line
+do 
+steghide extract -sf b.jpg -p $line
+done < $1
+
+
 Part 2
 
 1. The disk has two partitions of different formats: Win95 FAT32 and Linux.
@@ -26,7 +36,7 @@ Part 2
    alejandro  pokerface
    stefani    iloveyou
 
-7. 
+7. Some incriminating evidence could be all of the pictures, list of upcoming tours and the videos (including an encrypted video) of Lady Gaga on the disk and also the fact that there are pdf files that explain how to use sqlmap to exploit a sql injection vulnerability.
 
 8.  Three pictures named a15.jpg, a16.jpg, a17.jpg were deleted in /home/alejanro. From the .bash.history file in /home/stefani we also knew that a note.txt was deleted.
 
