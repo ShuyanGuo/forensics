@@ -36,7 +36,7 @@ Part 2
    alejandro  pokerface
    stefani    iloveyou
 
-7. Some incriminating evidence could be all of the pictures, list of upcoming tours and the videos (including an encrypted video) of Lady Gaga on the disk and also the fact that there are pdf files that explain how to use sqlmap to exploit a sql injection vulnerability.
+7. Some incriminating evidence could be all of the pictures, list of upcoming tours dates and the videos (including an encrypted video) of Lady Gaga on the disk and also the fact that there are pdf files that explain how to use sqlmap to exploit a sql injection vulnerability.
 
 8.  Three pictures named a15.jpg, a16.jpg, a17.jpg were deleted in /home/alejanro. From the .bash.history file in /home/stefani we also knew that a note.txt was deleted.
 
