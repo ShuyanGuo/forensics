@@ -40,7 +40,7 @@ Part 2
 
 8.  Three pictures named a15.jpg, a16.jpg, a17.jpg were deleted in /home/alejanro. From the .bash.history file in /home/stefani we also knew that a note.txt was deleted.
 
-9.  There are 14 pictures found in /home/alejandro.
+9.  There are 14 pictures found in /home/alejandro, not including the three photos he deleted.
 
 10. Yes. We found the file /home/root/lockbox.txt is an encryted zip archive file rather than a text file. Using the password we guessed - gaga, we successfully extracted the zip file and found a video of Lady Gaga's performance.
 
